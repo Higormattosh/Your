@@ -20,7 +20,6 @@ main {
 
     width: 100%;
 
-    background: rgb(120,87,255);
     background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
     display: grid;
 
@@ -141,7 +140,7 @@ main {
 
     grid-template-areas: "a b";
 
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
     padding: 0.9rem 0.9rem 0.9rem 0.9rem;
 
     background-color: rgba(255, 87, 87, 0.1);
@@ -202,7 +201,7 @@ main {
 
     grid-template-areas: "a b";
 
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
     padding: 0.9rem 0.9rem 0.9rem 0.9rem;
 
     background-color: rgba(255, 176, 31, 0.1);
@@ -263,7 +262,7 @@ main {
 
     grid-template-areas: "a b";
 
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
     padding: 0.9rem 0.9rem 0.9rem 0.9rem;
 
     background-color: rgba(0, 189, 145, 0.1);
@@ -324,7 +323,7 @@ main {
 
     grid-template-areas: "a b";
 
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
     padding: 0.9rem 0.9rem 0.9rem 0.9rem;
 
     background-color: rgba(17, 37, 212, 0.1);
@@ -402,32 +401,4 @@ main {
     padding: 0.9rem 0.9rem 0.9rem 0.9rem;
     background: #303B59;
     color: #ffffff;
-}
-
-@media (min-width: 768px){
-
-    html{
-        display: grid;
-        justify-content: center;
-    }
-
-    main{
-        display: grid;
-        grid-template-areas: 
-        "a b";
-        height: 100%;
-        background: none;
-    }
-    
-    .container{
-        display: grid;
-        grid-area: a;
-        height: 100%;
-        border-radius: 2rem;
-    }
-    .Summary{
-        display: grid;
-        grid-area: b;
-        
-    }
 }
