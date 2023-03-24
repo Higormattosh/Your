@@ -1,0 +1,433 @@
+html, body{
+    background: #ecf1f1;;
+    scroll-snap-type: y mandatory;
+    
+}
+
+main {
+    grid-template-areas: 
+    "a"
+    "b";
+    background-color: white;
+    height: 100vh;
+    padding-bottom: 1rem;
+    
+}
+
+.container{
+
+    grid-area: a;
+
+    width: 100%;
+
+    background: rgb(120,87,255);
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    display: grid;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    justify-content: center;
+    text-align: center;
+    display: grid;
+
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d";
+}
+
+.Your{
+    grid-area: a;
+    display: grid;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.Your ul li h1{
+    color: rgb(237 231 219);
+    font-size: 15px;
+}
+
+.Circle {
+    grid-area: b;
+    display: grid;
+    justify-content: center;
+}
+
+.Circle ul {
+    background: rgb(69,29,180);
+    background: linear-gradient(180deg, rgba(69,29,180,1) 0%, rgba(32,29,180,0) 100%);
+    border-radius: 10rem;
+
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.Circle ul li h2{
+
+
+
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.Circle ul li p {
+    font-size: 0.8rem;
+    color: #9ca3a3;
+}
+
+.Great {
+    grid-area: c;
+}
+
+.Great ul li h2{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 700;
+}
+
+.Texte {
+    grid-area: d;
+}
+
+.Texte ul li {
+    margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.Texte ul li p {
+    color: rgb(209, 203, 192);
+}
+
+.Summary {
+
+    grid-area: b;
+
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+
+        background: white;
+        height: 100vh;
+    
+}
+
+.Title {
+    grid-area: a;
+    display: grid;
+    justify-content: left;
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+.Title ul li h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.Reaction{
+    grid-area: b;
+    display: grid;
+    justify-items: center;
+
+    grid-template-areas: "a b";
+
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+
+    background-color: rgba(255, 87, 87, 0.1);
+    border-radius: 0.5rem;
+
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Reaction:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+.React-1{
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    padding-left: 1rem;
+}
+
+.React-1 li img{
+    padding-right: 0.5rem;
+}
+
+.React-1 li:nth-child(2) h1{
+    font-size: 1rem;
+    color:hsl(0, 100%, 67%) ;
+}
+
+.React-2{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    padding-right: 1rem;
+}
+
+.React-2 li:first-child h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right: 0.3rem;
+}
+
+.React-2 li:nth-child(2) h2{
+    font-size: 1.1rem;
+    color: #BEB8BF;
+}
+
+.Memory{
+    grid-area: c;
+    display: grid;
+    justify-items: center;
+
+    grid-template-areas: "a b";
+
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+
+    background-color: rgba(255, 176, 31, 0.1);
+    border-radius: 0.5rem;
+
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Memory:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+.Memo-1{
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    padding-left: 1rem;
+}
+
+.Memo-1 li img{
+    padding-right: 0.5rem;
+}
+
+.Memo-1 li:nth-child(2) h1{
+    font-size: 1rem;
+    color:#FFB01F ;
+}
+
+.Memo-2{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    padding-right: 1rem;
+}
+
+.Memo-2 li:first-child h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right: 0.3rem;
+}
+
+.Memo-2 li:nth-child(2) h2{
+    font-size: 1.1rem;
+    color: #BEB8BF;
+}
+
+.Verbal{
+    grid-area: d;
+    display: grid;
+    justify-items: center;
+
+    grid-template-areas: "a b";
+
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+
+    background-color: rgba(0, 189, 145, 0.1);
+    border-radius: 0.5rem;
+
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Verbal:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+.Verb-1{
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    padding-left: 1rem;
+}
+
+.Verb-1 li img{
+    padding-right: 0.5rem;
+}
+
+.Verb-1 li:nth-child(2) h1{
+    font-size: 1rem;
+    color:#00BD91 ;
+}
+
+.Verb-2{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    padding-right: 1rem;
+}
+
+.Verb-2 li:first-child h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right: 0.3rem;
+}
+
+.Verb-2 li:nth-child(2) h2{
+    font-size: 1.1rem;
+    color: #BEB8BF;
+}
+
+.Visual{
+    grid-area: e;
+    display: grid;
+    justify-items: center;
+
+    grid-template-areas: "a b";
+
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+
+    background-color: rgba(17, 37, 212, 0.1);
+    border-radius: 0.5rem;
+
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Visual:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+.Visu-1{
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    padding-left: 1rem;
+}
+
+.Visu-1 li img{
+    padding-right: 0.5rem;
+}
+
+.Visu-1 li:nth-child(2) h1{
+    font-size: 1rem;
+    color:#1125D4 ;
+}
+
+.Visu-2{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    padding-right: 1rem;
+}
+
+.Visu-2 li:first-child h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right: 0.3rem;
+}
+
+.Visu-2 li:nth-child(2) h2{
+    font-size: 1.1rem;
+    color: #BEB8BF;
+}
+
+.Enter{
+    grid-area: f;
+    display: grid;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Enter:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+.Enter input{
+    border: none;
+    border-radius: 5rem;
+    width: 100%;
+    padding: 0.9rem 0.9rem 0.9rem 0.9rem;
+    background: #303B59;
+    color: #ffffff;
+}
+
+@media (min-width: 768px){
+
+    html{
+        display: grid;
+        justify-content: center;
+    }
+
+    main{
+        display: grid;
+        grid-template-areas: 
+        "a b";
+        height: 100%;
+        background: none;
+    }
+    
+    .container{
+        display: grid;
+        grid-area: a;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    .Summary{
+        display: grid;
+        grid-area: b;
+        
+    }
+}
