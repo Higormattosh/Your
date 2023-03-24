@@ -106,16 +106,6 @@ main {
 .Summary {
 
     grid-area: b;
-
-    display: grid;
-    grid-template-areas: 
-    "a"
-    "b"
-    "c"
-    "d"
-    "e"
-    "f";
-
         background: white;
         height: 100vh;
     
@@ -125,7 +115,7 @@ main {
     grid-area: a;
     display: grid;
     justify-content: left;
-    margin: 2rem 0rem 0rem 2rem;
+    margin: 2rem 0rem 1rem 2rem;
 }
 
 .Title ul li h2{
